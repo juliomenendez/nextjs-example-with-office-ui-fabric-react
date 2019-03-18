@@ -2,6 +2,14 @@ const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')
 
+const  library = require('office-ui-fabric-react/lib-commonjs/Utilities')
+const responsiveLib = require('office-ui-fabric-react/lib-commonjs/utilities/decorators/withResponsiveMode');
+
+library.setSSR(true);
+library.setRTL(false);
+// Assume a large screen.
+responsiveLib.setResponsiveMode(responsiveLib.ResponsiveMode.large);
+
 // Hack to prevent issues with office-ui-fabric-react SSR support.
 process.__currentId__ = 0
 // --

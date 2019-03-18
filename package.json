@@ -2,10 +2,10 @@
   "name": "nextjs-example-with-office-ui-fabric-react",
   "version": "1.0.0",
   "dependencies": {
-    "next": "^7.0.2",
-    "office-ui-fabric-react": "^6.131.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "next": "^8.03",
+    "office-ui-fabric-react": "^6.154.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
   "devDependencies": {},
   "scripts": {
